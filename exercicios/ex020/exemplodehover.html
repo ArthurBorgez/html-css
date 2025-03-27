@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://www.meme-arsenal.com/memes/9d009dba5b6996d4f5db89eddadd7448.jpg);
+        }
+        
+        div > p{
+            display: none;
+        }
+
+        div:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        div:hover > p{
+            display: block;
+            color: black;
+            text-decoration: none;
+            background-color: aqua;
+            width: 200px;
+            text-align: center;
+        }
+
+        #link{
+           color: red; 
+           background-color: blueviolet;
+           width: 150px;
+           border-radius: 30px;
+           text-align: center;
+           border: 1px solid black;
+           box-shadow: 1px 1px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Passe o mouse abaixo</h1>
+    <div>Passe o mouse aqui <p>TEXTO ESCONDIDO</p></div>
+    <p>fim do exemplo</p>
+    <a href="c:\Users\user\Desktop\Ação entre amigos.xlsx"><p id="link">link para a imagem</p></a>
+</body>
+</html>

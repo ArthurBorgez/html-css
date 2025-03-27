@@ -1,0 +1,211 @@
+@charset "UTF-8;
+
+@font-face{
+    font-family: 'fonteflop';
+    src: url(fontes/idroid.otf); format(otf)
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+ 
+}
+
+body{
+    
+    width: 100%;
+    padding 0px;
+    maring 0px;
+    background-color: #84e0ad;
+
+}
+
+h1.titulo{
+    font-family: fonteflop;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: fonteflop;
+    color: green;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-family: fonteflop;
+    color: green;
+    padding: 20px;
+}
+header{
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 2px solid black;
+    background-image: radial-gradient(#3dd782,#28563d);
+      font-weight: bold;
+      
+    
+
+    & li{
+         display: inline-block;
+         padding: 10px;
+         justify-content: start;
+         cursor: pointer;
+         display: flex inline;
+         justify-content: space-between ;
+         margin: 0px 0px 0px 5px;
+         
+         
+     }
+
+      li:hover{
+        background-color: white;
+        border-radius: 10px;
+        color: green;
+        transition: 0.5s;
+      }
+
+      & p{
+        text-align: center;
+        color: white;
+        
+      }
+    
+    
+    
+    }
+
+       
+ main{
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 1%;
+    background-color: white;
+    box-shadow: 3px 3px 10px;
+    border-radius: 20px;
+    padding:;
+ 
+    & article{
+        font-weight: bold;
+        text-indent: 40px;
+        padding:  20px;
+    }
+
+    & aside{
+        text-align: center;
+       
+    }
+
+    img{
+        display: flex;
+        margin: auto;
+        max-width: 100%;
+        justify-content: center;
+        
+    }
+
+}
+
+
+
+
+section{
+
+    h2{
+        background-color:#1c422d ;
+        color: white;
+        border-radius: ;
+        margin: -17px 0px -10px 0px;
+        box-shadow: 1px 1px 3px black;
+    }
+
+
+
+
+    & a{
+    display: flex;
+    justify-content:column ;
+    text-decoration: none;
+}
+
+
+ 
+    & div.listadupla{
+    display: flex;
+    justify-content: space-between;
+    color: green;
+    
+   
+}
+
+& div.listadupla ul{
+    width: 45%;
+    list-style-type: none;
+    padding: 20px;
+   
+    
+}
+
+
+
+& a{
+    text-decoration: none;
+    color: #28563d;
+    font-weight: bold;
+}
+
+& a:hover{
+    color: #2b945a;
+}
+
+
+
+      
+main > .mulher{
+    margin: auto;
+    padding-left: 20%; 
+    max-width: 100%;
+}
+
+}
+
+ .video {
+    position:relative;
+    background-color: #28563d;
+    padding: 20px;
+    padding-bottom: 52.2%;
+
+  
+
+   
+}
+
+.video > iframe{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+}
+
+.finalzinho{
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+
+footer{
+
+background-color: black;
+color: white;
+text-align: center;
+width: %;
+margin: 1% auto auto auto;
+border-top: 3px solid white;
+
+}

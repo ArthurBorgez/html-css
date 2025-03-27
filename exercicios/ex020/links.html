@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+           color: #2222fe;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+        color: #2222fe1a;
+        } 
+
+        a:hover{
+            text-decoration: underline darkgray;
+        }
+        
+        #X:hover{
+        color: black;
+        }
+        
+        #YT:hover{
+        color: rgb(255, 0, 0);
+        text-decoration:;
+        }
+
+        #insta:hover{
+        color: #d432a1 ;
+        }
+
+        li{
+            color: white;
+            font-size: 30px;
+        }
+        
+        a:active{
+            color: green;
+        }
+
+        a::after{
+            content: '  [Link]';
+            color: darkgray;
+            font-weight: normal;
+            text-decoration: none;
+        }
+
+        a::before{
+            content: '✩	';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(229, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li ><a href="https://youtube.com" target="_blank" id="YT">Youtube</a></li>
+        <li ><a href="https://X.com" target="_blank" id="X">X</a></li>
+        <li ><a href="https://instagram.com" target="_blank" id="insta">Instagram</a></li>
+    </ul>
+</body>
+</html>

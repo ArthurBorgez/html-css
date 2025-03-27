@@ -1,0 +1,9 @@
+para neegrito usamos a tag STRONG
+e para italico usamos a tag EM
+texto marcado se usa a tag MARK
+texto deletado se usa a tag DEL
+tag SMALL para frses/palavras pequenas
+texto inserido depois se usa a tag INS
+Texto sublinhado com a tag U
+SUB para letras pequenas
+SUP para letras encima
