@@ -52,8 +52,6 @@ header{
     
 
     & li{
-        display: grid;
-        grid-template-columns: 4;
          display: inline-block;
          padding: 10px;
          justify-content: start;
