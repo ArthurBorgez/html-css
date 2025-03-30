@@ -47,7 +47,11 @@ header{
     background-image: radial-gradient(#3dd782,#28563d);
       font-weight: bold;
       
-    
+    & ul{
+        display: flex;
+        flex: auto;
+        gap: 2%;
+    }
 
     & li{
          display: inline-block;
