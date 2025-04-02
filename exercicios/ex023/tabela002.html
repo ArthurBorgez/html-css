@@ -11,16 +11,27 @@
 
         table{
             width: 400px;
+            position: relative;
 
             border-collapse: collapse;
         }
 
-        tr{
-        }
+
 
         td, th{
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody{
+
+            & tr:nth-child(2n) {
+
+                background-color: rgb(48, 48, 48);
+                color: white;
+
+
+            }
         }
 
         tfoot, thead{
@@ -29,8 +40,20 @@
 
         }
 
+        thead{
+
+           & tr{
+
+               & th{
+                    position: sticky;
+                    top: -1px;
+                    background-color: gray;
+                }
+            }
+        }
+
         caption{
-            background-color: lightgray;
+            background-color: rgb(184, 183, 183);
             color: rgb(255, 255, 255);
             font-weight: bolder;
             font-size: 1.5em;
@@ -44,7 +67,7 @@
     <h1>uso de tabelas grandes</h1>
     <h2></h2>
     <table>
-        <caption>anatomia para tabelas grandes</caption>
+        <caption>Anatomia para tabelas grandes</caption>
         <thead>
             <tr>
                 <th scope="col">Estado</th>
@@ -63,49 +86,6 @@
             <tr>
                 <td>Rio de Janeiro</td>
                 <td>17 219 679	</td>
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-                
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
             <tr>
                 <td>Bahia</td>
                 <td>14 850 513</td>
@@ -136,18 +116,80 @@
 
             </tr>
             <tr>
+                <td>Santa Catarina</td>
+                <td>8 058 441</td>
 
             </tr>
             <tr>
+                <td>Goiás</td>
+                <td>7 350 483</td>
 
             </tr>
             <tr>
+                <td>Maranhão</td>
+                <td>7 010 960</td>
 
             </tr>
             <tr>
+                <td>Amazonas</td>
+                <td>4 281 209</td>
 
             </tr>
             <tr>
+                <td>Paraíba</td>
+                <td>4 145 040</td>
+
+            </tr>
+            <tr>
+                <td> Espírito Santo</td>
+
+            </tr>
+            <tr>
+                <td> Mato Grosso</td>
+
+            </tr>
+            <tr>
+                <td> Rio Grande do Norte</td>
+
+            </tr>
+            <tr>
+                <td> Piauí</td>
+
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+
+            </tr>
+            <tr>
+                <td> Distrito Federal</td>
+
+            </tr>
+            <tr>
+                <td> Mato Grosso do Sul</td>
+
+            </tr>
+            <tr>
+                <td> Sergipe</td>
+
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+
+            </tr>
+            <tr>
+                <td>Tocantins	</td>
+
+            </tr>
+            <tr>
+                <td> Acre</td>
+
+            </tr>
+            <tr>
+                <td>Amapá</td>
+
+            </tr>
+            <tr>
+                <td>Roraima</td>
 
             </tr>
         </tbody>
@@ -157,5 +199,13 @@
 
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime quaerat, cum, veritatis ratione quidem placeat odio neque libero obcaecati distinctio officia adipisci quod? Ratione odit quis corrupti doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore provident harum, vitae magnam quos aspernatur beatae, alias assumenda exercitationem illum accusantium deserunt soluta cupiditate modi doloribus. Ipsam, repudiandae praesentium! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odit obcaecati sit quos nostrum repudiandae recusandae numquam. Soluta quia adipisci tenetur deleniti quae ullam delectus, porro odit veniam voluptatibus tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut illum praesentium, sequi nisi natus. Velit minus blanditiis similique dignissimos iure animi officiis, asperiores, amet doloremque quaerat enim, nostrum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsum modi officiis illum eligendi nostrum quaerat expedita eum quisquam animi sequi dolorem, fuga maiores hic, provident aspernatur in fugiat! Exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime quaerat, cum, veritatis ratione quidem placeat odio neque libero obcaecati distinctio officia adipisci quod? Ratione odit quis corrupti doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore provident harum, vitae magnam quos aspernatur beatae, alias assumenda exercitationem illum accusantium deserunt soluta cupiditate modi doloribus. Ipsam, repudiandae praesentium! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odit obcaecati sit quos nostrum repudiandae recusandae numquam. Soluta quia adipisci tenetur deleniti quae ullam delectus, porro odit veniam voluptatibus tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut illum praesentium, sequi nisi natus. Velit minus blanditiis similique dignissimos iure animi officiis, asperiores, amet doloremque quaerat enim, nostrum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsum modi officiis illum eligendi nostrum quaerat expedita eum quisquam animi sequi dolorem, fuga maiores hic, provident aspernatur in fugiat! Exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime quaerat, cum, veritatis ratione quidem placeat odio neque libero obcaecati distinctio officia adipisci quod? Ratione odit quis corrupti doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore provident harum, vitae magnam quos aspernatur beatae, alias assumenda exercitationem illum accusantium deserunt soluta cupiditate modi doloribus. Ipsam, repudiandae praesentium! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odit obcaecati sit quos nostrum repudiandae recusandae numquam. Soluta quia adipisci tenetur deleniti quae ullam delectus, porro odit veniam voluptatibus tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut illum praesentium, sequi nisi natus. Velit minus blanditiis similique dignissimos iure animi officiis, asperiores, amet doloremque quaerat enim, nostrum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsum modi officiis illum eligendi nostrum quaerat expedita eum quisquam animi sequi dolorem, fuga maiores hic, provident aspernatur in fugiat! Exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime quaerat, cum, veritatis ratione quidem placeat odio neque libero obcaecati distinctio officia adipisci quod? Ratione odit quis corrupti doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore provident harum, vitae magnam quos aspernatur beatae, alias assumenda exercitationem illum accusantium deserunt soluta cupiditate modi doloribus. Ipsam, repudiandae praesentium! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odit obcaecati sit quos nostrum repudiandae recusandae numquam. Soluta quia adipisci tenetur deleniti quae ullam delectus, porro odit veniam voluptatibus tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut illum praesentium, sequi nisi natus. Velit minus blanditiis similique dignissimos iure animi officiis, asperiores, amet doloremque quaerat enim, nostrum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsum modi officiis illum eligendi nostrum quaerat expedita eum quisquam animi sequi dolorem, fuga maiores hic, provident aspernatur in fugiat! Exercitationem.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime quaerat, cum, veritatis ratione quidem placeat odio neque libero obcaecati distinctio officia adipisci quod? Ratione odit quis corrupti doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores inventore provident harum, vitae magnam quos aspernatur beatae, alias assumenda exercitationem illum accusantium deserunt soluta cupiditate modi doloribus. Ipsam, repudiandae praesentium! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odit obcaecati sit quos nostrum repudiandae recusandae numquam. Soluta quia adipisci tenetur deleniti quae ullam delectus, porro odit veniam voluptatibus tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aut illum praesentium, sequi nisi natus. Velit minus blanditiis similique dignissimos iure animi officiis, asperiores, amet doloremque quaerat enim, nostrum sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsum modi officiis illum eligendi nostrum quaerat expedita eum quisquam animi sequi dolorem, fuga maiores hic, provident aspernatur in fugiat! Exercitationem.</p>
+
+
 </body>
 </html>
